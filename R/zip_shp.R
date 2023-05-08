@@ -32,4 +32,3 @@ zip_shp <- function(file_name, zip_pattern = ".zip$", shp_pattern = ".shp$") {
 
   sf::read_sf(shp_file)
 }
-
