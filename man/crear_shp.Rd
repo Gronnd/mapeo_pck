@@ -4,17 +4,12 @@
 \alias{crear_shp}
 \title{crear_shp()}
 \usage{
-crear_shp(
-  shp_data,
-  criterio_seleccion,
-  agrupar_por,
-  columnas_adicionales = NULL
-)
+crear_shp(shp_data, municipio, agrupar_por, columnas_adicionales = NULL)
 }
 \arguments{
 \item{shp_data}{datos del shp}
 
-\item{criterio_seleccion}{vector o lista con nombres, donde el nombre de cada elemento es el nombre de la columna y el valor es el valor a seleccionar}
+\item{municipio}{municipio a seleccionar}
 
 \item{agrupar_por}{columnas por las que se agrupará el shp}
 
